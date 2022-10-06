@@ -19,14 +19,14 @@ Test data:
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
 
-const scoreDolphins1 = 100;
-const scoreDolphins2 = 100;
-const scoreDolphins3 = 100;
-const scoreKoalas1 = 100;
-const scoreKoalas2 = 100;
-const scoreKoalas3 = 110;
+let scoreDolphins1 = 100;
+let scoreDolphins2 = 100;
+let scoreDolphins3 = 100;
+let scoreKoalas1 = 100;
+let scoreKoalas2 = 100;
+let scoreKoalas3 = 110;
 
-const averageScore_Dolphins = (scoreDolphins1 + scoreDolphins2 + scoreDolphins3) / 3 ;
+const averageScore_Dolphins = (scoreDolphins1 + scoreDolphins2 + scoreDolphins3) / 3;
 const averageScroe_Koalasa = (scoreKoalas1 + scoreKoalas2 + scoreKoalas3) / 3;
 
 if(averageScore_Dolphins >= 100 || averageScroe_Koalasa >= 100){
