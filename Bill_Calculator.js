@@ -18,7 +18,7 @@ const bill = prompt('How much is the bill ?');
 let tip;
 let result;
 
-if (bill >= 50 && bill <= 300){
+if (bill >= 50 && bill <= 300){  // This is correct result using an if/else stament .
     tip = bill * 0.15;
     result = Number(bill) + tip;
     alert("You need to tip:" + tip + " and total value is :" + result);
@@ -27,3 +27,11 @@ if (bill >= 50 && bill <= 300){
     result = Number(bill) + tip;
     alert("You need to tip:" + tip + " and total value is :" + result);
 }
+
+/*  //This also the correct result but using turnary operators !
+const bill = 250;
+const tip1 = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log('Your tip is : ' + tip1);
+const result = bill + tip1;
+console.log('Your total bill is :' + result);
+*/
