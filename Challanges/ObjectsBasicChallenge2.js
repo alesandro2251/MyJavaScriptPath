@@ -27,5 +27,5 @@ const jonas = {
         }
     }
 }
-console.log(`Jonas Schmidt is a ${jonas.calcAge()} years old teacher and 
+console.log(`${jonas.firstName} ${jonas.lastName} is a ${jonas.calcAge()} years old ${jonas.job} and 
 ${jonas.DriverLicense()}`);
